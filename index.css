@@ -18,13 +18,22 @@ height: 201.6px;
 }
 .user .text1{
 font-size: 10px;
+color: rgb(8, 180, 43);
+font-weight:bold;
+}
+.user .text2{
+    font-size: 10px;
+    font-weight: bold;
+    
+
 }
 .user img{
-    width: 90px;
+    width: 80px;
 }
 h5{
     font-size: 10px;
-    line-height: 10%;
+    line-height: 8%;
+    font-weight: 600;
     
 }
 
@@ -44,45 +53,54 @@ h4{
     
 
 }
-
+.username{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
 .barcode img{
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 85px;
     
 }
 .barcode h2{
-    font-size: 10px;
+    font-size: 12px;
     line-height: 8px;
 }
 .footer p{
     font-size: 9px;
+    padding: 1px 10px;
+    margin-left: 5px;
+    border: 1px solid rgb(159, 149, 149);
 }
 .footer img{
-    width: 140px;
-    margin-bottom: 20px;
+    width: 160px;
+    height: 18px;
+    margin-bottom: 16px;
+    margin-right: 5px;
 }
 .logo2 {
     position: absolute;
     z-index: 2;
     /* margin-bottom: 190px;
     margin-left: 109px; */
-    
+    top: 67px;
     }
 
 .logo2 img{
-width: 50px;
+width: 58px;
 
 }
+
 
 .bdmap {
 position: absolute;
 z-index: 1;
-opacity: 0.1;
-margin-left: 69px;
+opacity: 0.2;
+margin-left: 90px;
 }
 
 .bdmap img{
-    width: 144px;
+    width: 146px;
 
 }
 .dot{
@@ -94,5 +112,5 @@ margin-left: 69px;
 }
 .dot img{
     width: 280px;
-    height: 30px;
+    height: 40px;
 }
